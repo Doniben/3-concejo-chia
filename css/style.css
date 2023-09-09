@@ -429,3 +429,26 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+@media (max-width: 992px) {
+    .hero-mobile-title {
+        padding-top: 12rem !important;
+        text-align: center;
+    }
+
+    .typed-text-output {
+        text-align: center;
+    }
+
+    .container-xxl {
+        padding-top: 10px !important;
+    }
+
+    .logo-av {
+        text-align: center !important;
+    }
+    
+    .footer-text {
+        display: inline-block !important;
+    }
+}
