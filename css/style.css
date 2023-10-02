@@ -25,6 +25,10 @@
     padding-bottom: 6rem;
 }
 
+.h-35 {
+    height: 3.5em !important ;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -432,8 +436,14 @@
 
 @media (max-width: 992px) {
     .hero-mobile-title {
-        padding-top: 12rem !important;
+        /* padding-top: 12rem !important; */
         text-align: center;
+    }
+
+    .hero-mobile-title.mt-5 {
+        margin-top: 0rem !important;
+        width: 100% !important;
+        height: auto !important;
     }
 
     .typed-text-output {
